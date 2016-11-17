@@ -2,12 +2,16 @@
 抽屉菜单 + 聊天框 + 地图 
 
 ## 效果图
-
+![](screenshot/a.gif)
+![](screenshot/b.jpg)
+![](screenshot/c.jpg)
+![](screenshot/d.jpg)
+![](screenshot/e.jpg)
 ## 特点
 1. 支持下拉刷新
 
 ## 感谢
-[聊天框](https://github.com/w446108264/XhsEmoticonsKeyboard) 
+[聊天框 ](https://github.com/w446108264/XhsEmoticonsKeyboard)<https://github.com/w446108264/XhsEmoticonsKeyboard> 
 
 ## 与XhsEmoticonsKeyboard聊天框修改内容
 1. 解决拖动部分 横向滑动与纵向滑动的事件冲突
