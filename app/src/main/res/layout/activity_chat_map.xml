@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xhsemoticonskeyboard.BottomDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <!--主布局-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:clickable="true">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/base_bg_gray"
+        android:focusable="true"
+        android:orientation="horizontal">
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/text_content" />
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+
+    <sj.keyboard.XhsEmoticonsKeyBoard
+        android:id="@+id/ek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lv_chat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="#00000000"
+                android:divider="@null"
+                android:fadingEdge="none"
+                android:fitsSystemWindows="true"
+                android:listSelector="#00000000"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollingCache="false"
+                android:smoothScrollbar="true"
+                android:stackFromBottom="true" />
+
+        </LinearLayout>
+
+    </sj.keyboard.XhsEmoticonsKeyBoard>
+
+</com.xhsemoticonskeyboard.BottomDrawerLayout>
+
