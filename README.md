@@ -2,10 +2,10 @@
 抽屉菜单 + 聊天框 + 地图 
 
 ## 效果图
-![](screenshot/a.gif)
-![](screenshot/b.jpg)
-![](screenshot/c.jpg)
-![](screenshot/d.jpg)
+![](screenshot/a.gif)  
+![](screenshot/b.jpg)  
+![](screenshot/c.jpg)  
+![](screenshot/d.jpg)  
 ![](screenshot/e.jpg)
 ## 特点
 1. 支持下拉刷新
